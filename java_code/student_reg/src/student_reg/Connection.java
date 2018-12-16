@@ -18,9 +18,9 @@ public class Connection {
 	
 	private final String driver="oracle.jdbc.driver.OracleDriver";
 	//private final String url="jdbc:oracle:thin:@localhost:1521:xe";
-	private final String url="jdbc:oracle:thin:@castor.cc.binghamton.edu:1521:acad111";
-	private final String user="achakra4";
-	private final String pwd="arpita123";
+	private final String url="jdbc:oracle:thin:@<host name>:<portno>:<database>";
+	private final String user=<username>;
+	private final String pwd=<password>;
 	private java.sql.Connection connectionObj=null;
 	
 	// Create the connection to the database 
